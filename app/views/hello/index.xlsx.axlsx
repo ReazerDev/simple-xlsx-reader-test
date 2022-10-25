@@ -1,0 +1,9 @@
+wb = xlsx_package.workbook
+wb.add_worksheet(name: 'This is a test') do |sheet|
+  sheet.add_row [
+    'This',
+    'is',
+    'a',
+    'test'
+  ]
+end
